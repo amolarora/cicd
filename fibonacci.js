@@ -12,7 +12,7 @@ const fibonacci = (upto) => {
         return [0,1];
     }
     else {
-        return "Not Implemented!";
+        return "Not Implemented";
     }
 }
 
