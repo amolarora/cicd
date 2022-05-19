@@ -13,6 +13,9 @@ server.listen(port, () => {
 })
 
 
+server.get("/", (req,res) => {
+    res.send("Type in a number after the url to get the first few numbers in the fibonacci sequence example: https://amol-cicd.azurewebsites.net/fibonacci/3");
+})
 
 server.get("/fibonacci/:upto", (req,res) => {
     const upto = req.params.upto;
